@@ -1,6 +1,11 @@
 .one{
-    color: rebeccapurple;
+    background-color: #1F2937;
 }
 
-/* I just need to practice commiting to github again */
-/*connfusion prevails */ 
+.two {
+    background-color: white;
+}
+
+.three{
+    background-color: #e5e7eb;
+}
