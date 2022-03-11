@@ -8,11 +8,13 @@ information header text 36px extra-bold #1f2937
 quote section background color #e5e7eb
 quote text 36px light italic #1f2937 */
 
+/*good enough for now */
 
 body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    
 }
 
 a {
@@ -54,11 +56,12 @@ ul{
     color: white;
     background-color: blue;
     max-height: 20px;
+    border-radius: 25px;
 }
 
 .two {
     background-color: white;
-    height: 500px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,6 +101,11 @@ q{
 
 h4{
     color: blue;
+    border-color: aqua;
+    border-style: double;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 25px;
 }
 
 #bert1{
@@ -129,4 +137,27 @@ h4{
     border-style: double;
     border-color: blue;
     margin-bottom: 20px;
+}
+
+.four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border-style: groove;
+    border: 20px;
+    border-color: #1F2937;
+    height: 200px;
+    width: 600px;
+    border-radius: 25px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.bottompart{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   margin-top: 20px;
 }
