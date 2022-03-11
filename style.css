@@ -1,11 +1,124 @@
+/* colors and font styles 
+dark background color (hero and footer) #1F2937 
+hero main text (this website is awesome) 48px extra-bold #f9faf8
+hero secondary text, header link text 18px #e5e7eb
+header logo text 24px #f9faf8
+button color, call to action background color #3882f6
+information header text 36px extra-bold #1f2937
+quote section background color #e5e7eb
+quote text 36px light italic #1f2937 */
+
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+ul{
+    display: flex;
+    justify-content: end;
+    list-style-type:none;
+}
+
 .one{
     background-color: #1F2937;
 }
 
+.logo{
+    display: flex;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.text{
+    color: white;
+    width: 33.333%;
+}
+
+.firstmain{
+    display: flex;
+    justify-content: center;
+}
+
+.firstbutton{
+    color: white;
+    background-color: blue;
+    max-height: 20px;
+}
+
 .two {
     background-color: white;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
 }
+
+.imagelist{
+    height: 50px;
+    width: 25%;
+    margin: auto;
+    border: 10px;
+    border-color: blue;
+    border-style: double;
+}
+
+.pics{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+q{
+    display: flex;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    justify-content: center;
+}
+
+
 
 .three{
     background-color: #e5e7eb;
+    height: 200px;
+}
+
+h4{
+    color: blue;
+}
+
+#bert1{
+    height: auto;
+    width: auto;
+}
+
+#bert3{
+    height: auto;
+    width: auto;
+}
+
+#bert4{
+    height: auto;
+    width: auto;
+}
+
+#bert5{
+    height: auto;
+    width: auto;
+}
+
+.pics{
+    display: flex;
+    flex-wrap: wrap;
 }
